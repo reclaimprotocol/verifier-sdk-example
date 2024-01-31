@@ -1,0 +1,21 @@
+{
+  "name": "verifier-sdk-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.ts --network opt_goerli"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.5"
+  },
+  "dependencies": {
+    "@reclaimprotocol/verifier-solidity-sdk": "^1.0.0",
+    "dotenv": "^16.4.1"
+  }
+}
